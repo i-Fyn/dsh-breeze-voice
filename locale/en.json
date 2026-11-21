@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Voice",
+    "description": "BreezeBlue text-to-speech for DeepSeek Harness: agents call breeze_voice to synthesize audio and hand the file to a channel. Configure the key, voice and delivery under Settings → Voice."
+  }
+}

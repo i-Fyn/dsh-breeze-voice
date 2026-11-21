@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "语音",
+    "description": "把 BreezeBlue 的文字转语音接进 DeepSeek Harness：agent 用 breeze_voice 合成音频，交回发送渠道。设置 → 语音 里填 API key、音色与演绎参数。"
+  }
+}

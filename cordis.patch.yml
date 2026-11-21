@@ -1,0 +1,8 @@
+# dsh-breeze-voice：BreezeBlue 语音合成
+#
+# 只插一行：breeze-voice —— 注册 breeze_voice 工具与设置面板接口。
+- insert:
+    - id: breeze-voice
+      name: dsh-breeze-voice
+      config:
+        enabled: true

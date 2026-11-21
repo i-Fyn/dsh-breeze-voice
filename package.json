@@ -1,0 +1,57 @@
+{
+  "name": "dsh-breeze-voice",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "把 BreezeBlue 云端 TTS 接进 DeepSeek Harness：breeze_voice 工具把文字合成为本机音频文件，交给 QQ 等渠道发送；设置 → 语音 里改 key、音色与演绎参数。",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "src",
+    "locale",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-Fyn/dsh-breeze-voice.git"
+  },
+  "homepage": "https://github.com/i-Fyn/dsh-breeze-voice#readme",
+  "bugs": {
+    "url": "https://github.com/i-Fyn/dsh-breeze-voice/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "tts",
+    "text-to-speech",
+    "voice",
+    "breezeblue"
+  ],
+  "author": "i-Fyn <2310993697@qq.com>"
+}
